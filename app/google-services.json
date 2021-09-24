@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669031177115",
+    "project_id": "ceylon-paradise-31b60",
+    "storage_bucket": "ceylon-paradise-31b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669031177115:android:2308cdd6ab3fb22eb8df3e",
+        "android_client_info": {
+          "package_name": "com.example.ceylonparadise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669031177115-gvpajtfgok7f0adqe9l5reqft3qqquii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiTIDZ23iXDPwsigGh46FelgpijDwjaYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669031177115-gvpajtfgok7f0adqe9l5reqft3qqquii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
