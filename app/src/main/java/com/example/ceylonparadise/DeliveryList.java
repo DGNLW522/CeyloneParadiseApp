@@ -89,13 +89,13 @@ public class DeliveryList extends AppCompatActivity {
         Button button;
     }
 
-    class MyAdapter extends ArrayAdapter<DeliveryItems> {
+    class MyAdapter extends ArrayAdapter<DeliveryItems>{
         LayoutInflater inflater;
         Context myContext;
         List<DeliveryItems> user;
 
 
-        public MyAdapter(Context context, int resource, ArrayList<DeliveryItems> objects) {
+        public MyAdapter(Context context, int resource, ArrayList<DeliveryItems> objects){
             super(context, resource, objects);
             myContext = context;
             user = objects;
