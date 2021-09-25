@@ -81,7 +81,7 @@ public class DeliveryList extends AppCompatActivity {
         });
     }
 
-    static class ViewHolder {
+    static class ViewHolder{
 
         ImageView imageView;
         TextView COL1;
