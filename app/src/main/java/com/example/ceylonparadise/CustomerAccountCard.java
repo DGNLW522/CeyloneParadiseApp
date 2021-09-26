@@ -68,6 +68,8 @@ public class CustomerAccountCard extends AppCompatActivity {
                     user.add(cardDetails);
                 }
 
+                MyAdapter adapter = new MyAdapter(CustomerAccountCard.this, R.layout.custom_card_details, (ArrayList<CardDetails>) user);
+                listView.setAdapter(adapter);
 
             }
 
