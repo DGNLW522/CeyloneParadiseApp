@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ManageRooms">
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ListView
+        android:id="@+id/requestslist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo" />
+        android:layout_height="match_parent" />
 </LinearLayout>

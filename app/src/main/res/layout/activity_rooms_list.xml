@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CustomerAccountCard">
+    tools:context=".RoomsList">
 
     <Button
-        android:id="@+id/addcard"
+        android:id="@+id/gotochannelling"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Add Payment Card"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:text="Go to Reserved Rooms list"
+        android:textColor="#000000"
         app:backgroundTint="@color/yellow"
-        app:cornerRadius="20dp" />
+        app:cornerRadius="15dp" />
 
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+    </ListView>
 </LinearLayout>
