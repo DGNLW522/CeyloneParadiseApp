@@ -3,23 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CustomerAccountCard">
+    android:layout_height="match_parent"
+    tools:context=".OrderList">
 
     <Button
-        android:id="@+id/addcard"
+        android:id="@+id/gotodelItms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Add Payment Card"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:backgroundTint="@color/yellow"
-        app:cornerRadius="20dp" />
+        android:text="Go to Ordered Items"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/yellow" />
 
     <ListView
-        android:id="@+id/listview"
+        android:id="@+id/listviewdel"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+    </ListView>
+
 </LinearLayout>
