@@ -5,11 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OrderedFoodList">
+    tools:context=".ManageRooms">
 
     <ListView
-        android:id="@+id/orderlist"
+        android:id="@+id/requestslist"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </LinearLayout>
