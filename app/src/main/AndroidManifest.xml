@@ -11,23 +11,6 @@
         android:theme="@style/Theme.CeylonParadise">
         <activity android:name=".AddCard"></activity>
         <activity android:name=".CustomerAccountCard" />
-        <activity android:name=".SelectPaymentMethod" />
-        <activity android:name=".SelectedDeliveryList" />
-        <activity android:name=".DeliveryList" />
-        <activity android:name=".OrderedFoodList" />
-        <activity android:name=".OrderList" />
-        <activity android:name=".ManageRooms" />
-        <activity android:name=".RoomsList" />
-        <activity android:name=".CustomerHome" />
-        <activity android:name=".Register" />
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
